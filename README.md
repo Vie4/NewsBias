@@ -47,6 +47,18 @@ Insight utama:
 
 ---
 
+## 🤖 AI Support Explanation
+- **IBM Granite 3.3-8B Instruct** (via Replicate API) digunakan sebagai **Large Language Model** untuk:  
+  - **Summarization** → menyarikan artikel menjadi ringkas (maks. 3 kalimat).  
+  - **Classification** → mengklasifikasikan bias politik ke dalam *Left, Center, Right*.  
+  - **Scoring** → memberikan probabilitas numerik pada setiap kategori bias.  
+
+- **LangChain Community** memudahkan integrasi LLM agar output bisa diproses dalam format JSON terstruktur.  
+- **Pandas** digunakan untuk menyimpan dan mengolah hasil analisis ke dalam tabel.  
+- **News API** menjadi sumber utama data real-time.
+  
+---
+
 ## ✅ Conclusion & Recommendation
 **Kesimpulan:**  
 Proyek ini menunjukkan bahwa pemanfaatan LLM dapat membantu mengidentifikasi bias berita dengan pendekatan yang lebih sistematis, transparan, dan dapat diinterpretasikan.  
@@ -58,15 +70,5 @@ Proyek ini menunjukkan bahwa pemanfaatan LLM dapat membantu mengidentifikasi bia
 4. **Evaluasi Manual** → validasi hasil AI perlu dilakukan dengan pakar komunikasi politik agar akurasinya terukur.  
 
 ---
-
-## 🤖 AI Support Explanation
-- **IBM Granite 3.3-8B Instruct** (via Replicate API) digunakan sebagai **Large Language Model** untuk:  
-  - **Summarization** → menyarikan artikel menjadi ringkas (maks. 3 kalimat).  
-  - **Classification** → mengklasifikasikan bias politik ke dalam *Left, Center, Right*.  
-  - **Scoring** → memberikan probabilitas numerik pada setiap kategori bias.  
-
-- **LangChain Community** memudahkan integrasi LLM agar output bisa diproses dalam format JSON terstruktur.  
-- **Pandas** digunakan untuk menyimpan dan mengolah hasil analisis ke dalam tabel.  
-- **News API** menjadi sumber utama data real-time.  
 
 Dengan kombinasi ini, AI digunakan secara **relevan dan terarah** untuk menjawab permasalahan penelitian: **deteksi bias politik dalam berita online**.  
