@@ -57,18 +57,4 @@ Insight utama:
 - **Pandas** digunakan untuk menyimpan dan mengolah hasil analisis ke dalam tabel.  
 - **News API** menjadi sumber utama data real-time.
   
----
-
-## ✅ Conclusion & Recommendation
-**Kesimpulan:**  
-Proyek ini menunjukkan bahwa pemanfaatan LLM dapat membantu mengidentifikasi bias berita dengan pendekatan yang lebih sistematis, transparan, dan dapat diinterpretasikan.  
-
-**Rekomendasi:**  
-1. **Pengembangan Dashboard** → hasil CSV dapat divisualisasikan menjadi grafik interaktif untuk memudahkan interpretasi publik.  
-2. **Dataset** → selain News API, proyek dapat diperluas dengan scraping portal berita lokal/internasional untuk perbandingan yang lebih komprehensif.  
-3. **Integrasi Sentiment Analysis** → menambahkan analisis emosi dalam teks untuk melengkapi bias politik dengan tone emosional.  
-4. **Evaluasi Manual** → validasi hasil AI perlu dilakukan dengan pakar komunikasi politik agar akurasinya terukur.  
-
----
-
 Dengan kombinasi ini, AI digunakan secara **relevan dan terarah** untuk menjawab permasalahan penelitian: **deteksi bias politik dalam berita online**.  
